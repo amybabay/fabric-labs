@@ -60,4 +60,4 @@ The goal of this tutorial is to understand how OSPF works and to allow the user 
 ## Additional Information
 - FABRIC Learn Website: If you encounter problems,questions, or suggestions, please navigate to the FABRIC Knowledge Base at https://learn.fabric-testbed.net/
 - FABRIC Teaching Material Github: <https://github.com/fabric-testbed/teaching-materials>
-- This assignment was originally written for the GENI network (<https://www.cs.unc.edu/Research/geni/geniEdu/06-Ospf.html>), but has beeen converted to run in FABRIC.
+- This assignment was originally written for the GENI network (<https://www.cs.unc.edu/Research/geni/geniEdu/06-Ospf.html>), but has been converted to run in FABRIC.
