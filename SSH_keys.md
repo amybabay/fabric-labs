@@ -87,6 +87,11 @@ SSH (Secure Shell) keys are a secure and convenient way to authenticate yourself
 9. **Copy the Public Key**
     - The public key will be displayed on the portal. Copy the entire content of the public key (starts with "ssh-rsa") to your clipboard.
 
+![ssh keys](https://transfer.sh/dwHs8zd73j/Screenshot%202023-08-09%20at%202.49.19%20AM.png)
+
+10. **Upload the Bastion key**
+    - Upload the bastion key to the Jupyter Hub to access the VMs.
+      ![ssh keys](https://transfer.sh/V9dNRwVNsE/Screenshot%202023-08-09%20at%202.40.32%20AM.png)
 
 You have successfully generated your SSH key pair and added the public key to the FABRIC portal. Now, you can use the private key to access FABRIC resources securely. Make sure to keep the private key safe and do not share it with anyone. 
 
@@ -100,6 +105,8 @@ If you already have SSH keys generated, you can use them without generating new 
    - Open your terminal or command prompt on your local desktop.
    - Navigate to your home directory by entering `cd ~` in the terminal.
    - Check if you already have an SSH config file by running `ls -a ~/.ssh`. If the file does not exist, create it by running `touch ~/.ssh/config`.
+
+     ![ssh config](https://transfer.sh/FCgt33kcLq/Screenshot%202023-08-09%20at%202.52.14%20AM.png)
 
 2. **Edit the SSH Config File:**
    - Use a text editor (such as nano, vi, or any text editor of your choice) to open the SSH config file. For example, `nano ~/.ssh/config`.
