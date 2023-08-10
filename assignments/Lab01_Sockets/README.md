@@ -19,7 +19,7 @@ You must have your Fabric account and JupyterHub environment setup. Please see t
     - **CreateSlice.ipynb**: Creates the FABRIC slice/topology needed for this tutorial
     - **SocketLab.ipynb**: Gets slice info, uploads test programs to nodes, and contains instructions for running the lab
 
-- To run the tutorial:
+- To run the lab:
    - Login to the FABRIC Portal and JupyterHub
     	- Login to the [FABRIC Portal](https://portal.fabric-testbed.net/)
     	- Login/connect to the [FABRIC JupyterHub](https://learn.fabric-testbed.net/knowledge-base/creating-your-first-experiment-in-jupyter-hub/)
@@ -30,7 +30,7 @@ You must have your Fabric account and JupyterHub environment setup. Please see t
         	git clone https://github.com/amybabay/fabric-labs.git
 ```
 
-   - Run the Tutorial Notebooks
+   - Run the lab notebooks
     	- In the left-hand column of JupyterHub, navigate to the Lab01_Sockets lab
     	- Open and execute the CreateSlice.ipynb notebook
         - Then open and execute the SocketLab.ipynb, filling out your Lab1.docx worksheet as you go.
