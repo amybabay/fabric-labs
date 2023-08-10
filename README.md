@@ -16,8 +16,7 @@ To be able to run the following experiments you will need a fabric account and a
     	- Open a terminal in JupyterHub by clicking the "Terminal" tile under "Other" in the Launcher tab
     	- In the terminal window, type the following commands to download (pull) the latest version of the set of tutorials from Github
 ```
-        	mkdir fabric-labs
-        	cd fabric-labs
+
         	git clone https://github.com/amybabay/fabric-labs.git
 ```
 
